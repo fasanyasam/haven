@@ -98,30 +98,29 @@ html, body{
         width: 60px;
     }
     #haven_description{
-        font-size:20px ;
+        font-size:26px ;
         font-weight: lighter;
         line-height: 1.2em;
         text-align: center;
     }
 
     #haven_description button{
-        margin-top: 20px;
+        margin-top: 30px;
         text-align: center;
         width: 150px;
-        height: 40px;
-        font-size: 16px;
+        height: 50px;
+        font-size: 20px;
     }
     
     #haven_app {
-        width: 45px; 
+        width: 50px; 
         position: relative;
         left: 50%;
     }
     #CTA{
         font-size: 20px;
         color: white;
-        position: relative;
-        left: 30%;
+       
     }
     .download-btn{
         margin-top: 6px;
@@ -129,6 +128,14 @@ html, body{
         width: 150px;
         height: 40px;
         font-size: 16px;
+        background: none;
+        border: solid 2px; 
+    }
+    .fa-apple{
+        background-color: black;
+    }
+    .fa-google-play{
+        background-color: rgb(40, 52, 207);
     }
     
 
