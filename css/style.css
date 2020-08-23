@@ -1,0 +1,112 @@
+html, body{
+    margin: 0;
+    padding: 0;
+}
+#bg{
+    background-image: linear-gradient( rgba(0, 0, 0, 0.288), rgba(0, 0, 0, 0.575)), url("../img/hotel1.jpeg") ;
+    background-size: cover;
+    
+}
+#logo{
+    width: 20%;
+    padding: 2%;
+}
+#brand {
+    width: 40%;
+}
+.container{
+    padding: 2% ;
+}
+#haven_description{
+    font-size:50px ;
+    font-weight: lighter;
+    padding-top: 10%;
+}
+
+#haven_app {
+    width: 40%;
+    height: 70%;
+    padding-top: 10%;
+    position: relative;
+    left: 50%;
+}
+#CTA{
+    font-size: 1.6em;
+    color: white;
+    position: relative;
+    left: 47%;
+}
+.download-btn{
+    position: relative;
+    left: 40%;
+    margin: 2%;
+}
+
+
+
+@media  (max-width:1080px){
+   
+    #bg{
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    #haven_description{
+        font-size:40px ;
+        font-weight: lighter;
+        padding-top: 15%;
+        line-height: 1.5em;
+    }
+    
+    #haven_app {
+        width: 45%; 
+        position: relative;
+        left: 50%;
+    }
+    #CTA{
+        font-size: 1.6em;
+        color: white;
+        position: relative;
+        left: 30%;
+    }
+    .download-btn{
+        position: relative;
+        left: 30%;
+        margin: 1% 2%;
+    }
+    
+
+}
+@media  (max-width:600px){
+    .container{
+        padding: 0 ;
+    }
+    #haven_description{
+        font-size:30px ;
+        font-weight: lighter;
+        line-height: 1.2em;
+        text-align: center;
+    }
+    #haven_description button{
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    #haven_app {
+        width: 45%; 
+        position: relative;
+        left: 50%;
+    }
+    #CTA{
+        font-size: 1.6em;
+        color: white;
+        position: relative;
+        left: 30%;
+    }
+    .download-btn{
+        position: relative;
+        left: 30%;
+        margin: 1% 2%;
+    }
+    
+
+}
